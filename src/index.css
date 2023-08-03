@@ -6,7 +6,10 @@
   0 4px 16px rgba(128, 144, 176, 0.3);
 
   /* paddings */
-  --padding-cart: 16px 24px;
+  --padding-cart: 24px 36px;
+
+  /* colors */
+  --bg-white: #f6f6f6;
 }
 
 body {

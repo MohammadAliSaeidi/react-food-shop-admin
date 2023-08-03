@@ -1,12 +1,16 @@
 .auth-page {
     display: block;
+    background-color: var(--bg-white);
     min-height: 100dvh;
 }
 
-.form-container {
-    border-radius: var(--border-radius);
-    box-shadow: var(--shadow-cart);
-
+.form-paper {
     position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.form-container {
     padding: var(--padding-cart);
 }
