@@ -1,17 +1,23 @@
 import React from 'react';
 import './AuthenticationPage.css'
-import {Button, Divider, Paper, Stack, TextField} from "@mui/material";
+import {Button, Paper, Stack, TextField} from "@mui/material";
+import '../../styles/global.css'
+import LoginOutlinedIcon from '@mui/icons-material/LoginOutlined';
 
 function AuthenticationPage() {
     return (
-        <div className='auth-page'>
-            <Paper className='form-paper' elevation={4}>
+        <div className='full-bg auth-page'>
+            <Paper className='form-paper'>
                 <div className='form-container'>
                     <Stack>
                         <TextField id='username' margin='dense' label='username'/>
                         <TextField id='password' margin='dense' label='password'/>
-                        <Divider  variant='middle' />
-                        <Button variant="contained">Contained</Button>
+                        <Button
+                            size='large'
+                            sx={{marginTop: '10px'}}
+                            onClick={(e) => e.preventDefault()}
+                            variant="contained"
+                            endIcon={<LoginOutlinedIcon />}>Login</Button>
                     </Stack>
                 </div>
             </Paper>
