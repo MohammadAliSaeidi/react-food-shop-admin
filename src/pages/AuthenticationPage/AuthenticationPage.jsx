@@ -1,7 +1,6 @@
 import React from 'react';
 import './AuthenticationPage.css'
 import {Button, Paper, Stack, TextField} from "@mui/material";
-import '../../styles/global.css'
 import LoginOutlinedIcon from '@mui/icons-material/LoginOutlined';
 
 function AuthenticationPage() {

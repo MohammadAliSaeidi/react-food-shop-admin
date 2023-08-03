@@ -8,6 +8,9 @@
   /* paddings */
   --padding-cart: 24px 36px;
 
+  /* margins */
+  --margin-cart: 12px;
+
   /* colors */
   --bg-white: #f6f6f6;
 }
