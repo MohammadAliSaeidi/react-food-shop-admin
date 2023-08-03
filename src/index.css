@@ -1,3 +1,14 @@
+:root{
+  --border-radius: 10px;
+
+  /* shadows */
+  --shadow-cart: 0 16px 40px rgba(128, 144, 176, 0.3),
+  0 4px 16px rgba(128, 144, 176, 0.3);
+
+  /* paddings */
+  --padding-cart: 16px 24px;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
