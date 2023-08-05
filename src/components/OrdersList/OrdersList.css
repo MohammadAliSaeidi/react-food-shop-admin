@@ -1,0 +1,4 @@
+.orders-list {
+    height: calc(100dvh - (var(--margin-cart) * 2));
+    box-sizing: border-box;
+}
