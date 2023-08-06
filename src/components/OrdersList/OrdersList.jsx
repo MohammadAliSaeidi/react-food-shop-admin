@@ -2,7 +2,6 @@ import React, {useEffect, useState} from 'react';
 import {Button, Paper} from "@mui/material";
 import {DataGrid} from '@mui/x-data-grid';
 import './OrdersList.css'
-import {mockedOrdersData} from '../../mock/mockedOrdersData'
 import {columnNames} from "./columnNames"
 import {getUserInfo} from "../../services/webServices";
 
